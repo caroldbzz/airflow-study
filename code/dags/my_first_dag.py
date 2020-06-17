@@ -1,5 +1,6 @@
 from airflow import DAG
 from datetime import datetime, timedelta
+from airflow.operators import MyFirstOperator
 
 default_arguments = {
     'owner':'airflow',
@@ -12,3 +13,7 @@ dag = DAG(dag_id='my_first_dag',
           schedule_interval='0 * * * *',
           default_args=default_arguments,
           catchup=False)
+
+task_1 = MyFirstOperator(task_id='task_id1', param='some random text', dag=dag)
+
+task_1
