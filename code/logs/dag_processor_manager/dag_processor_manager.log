@@ -1,0 +1,238 @@
+[2020-06-17 12:25:53,064] {dag_processing.py:806} INFO - Processing files using up to 2 processes at a time 
+[2020-06-17 12:25:53,065] {dag_processing.py:807} INFO - Process each file at most once every 0 seconds
+[2020-06-17 12:25:53,065] {dag_processing.py:809} INFO - Checking for new files in /home/aqrl-caroline/aqrl-apps/airflow-teste/code/dags every 300 seconds
+[2020-06-17 12:25:53,086] {dag_processing.py:1006} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                                                                                            PID  Runtime    Last Runtime    Last Run
+-------------------------------------------------------------------------------------------------------------------------------------------------  -----  ---------  --------------  ----------
+/home/aqrl-caroline/aqrl-apps/airflow-teste/code/venv/lib/python3.6/site-packages/airflow/example_dags/example_pig_operator.py
+/home/aqrl-caroline/aqrl-apps/airflow-teste/code/venv/lib/python3.6/site-packages/airflow/example_dags/example_passing_params_via_test_command.py
+/home/aqrl-caroline/aqrl-apps/airflow-teste/code/venv/lib/python3.6/site-packages/airflow/example_dags/example_python_operator.py
+/home/aqrl-caroline/aqrl-apps/airflow-teste/code/venv/lib/python3.6/site-packages/airflow/example_dags/example_docker_operator.py                  16765  0.01s
+/home/aqrl-caroline/aqrl-apps/airflow-teste/code/venv/lib/python3.6/site-packages/airflow/example_dags/example_branch_python_dop_operator_3.py
+/home/aqrl-caroline/aqrl-apps/airflow-teste/code/venv/lib/python3.6/site-packages/airflow/example_dags/example_trigger_target_dag.py
+/home/aqrl-caroline/aqrl-apps/airflow-teste/code/venv/lib/python3.6/site-packages/airflow/example_dags/test_utils.py
+/home/aqrl-caroline/aqrl-apps/airflow-teste/code/venv/lib/python3.6/site-packages/airflow/example_dags/tutorial.py
+/home/aqrl-caroline/aqrl-apps/airflow-teste/code/venv/lib/python3.6/site-packages/airflow/example_dags/example_bash_operator.py
+/home/aqrl-caroline/aqrl-apps/airflow-teste/code/venv/lib/python3.6/site-packages/airflow/example_dags/example_http_operator.py
+/home/aqrl-caroline/aqrl-apps/airflow-teste/code/venv/lib/python3.6/site-packages/airflow/example_dags/example_branch_operator.py
+/home/aqrl-caroline/aqrl-apps/airflow-teste/code/venv/lib/python3.6/site-packages/airflow/example_dags/docker_copy_data.py
+/home/aqrl-caroline/aqrl-apps/airflow-teste/code/venv/lib/python3.6/site-packages/airflow/example_dags/example_subdag_operator.py
+/home/aqrl-caroline/aqrl-apps/airflow-teste/code/venv/lib/python3.6/site-packages/airflow/example_dags/example_xcom.py
+/home/aqrl-caroline/aqrl-apps/airflow-teste/code/venv/lib/python3.6/site-packages/airflow/example_dags/example_latest_only.py
+/home/aqrl-caroline/aqrl-apps/airflow-teste/code/venv/lib/python3.6/site-packages/airflow/example_dags/example_skip_dag.py
+/home/aqrl-caroline/aqrl-apps/airflow-teste/code/venv/lib/python3.6/site-packages/airflow/example_dags/example_short_circuit_operator.py
+/home/aqrl-caroline/aqrl-apps/airflow-teste/code/venv/lib/python3.6/site-packages/airflow/example_dags/example_trigger_controller_dag.py
+/home/aqrl-caroline/aqrl-apps/airflow-teste/code/venv/lib/python3.6/site-packages/airflow/example_dags/example_latest_only_with_trigger.py         16763  0.01s
+/home/aqrl-caroline/aqrl-apps/airflow-teste/code/venv/lib/python3.6/site-packages/airflow/example_dags/subdags/subdag.py
+================================================================================
+[2020-06-17 12:26:23,492] {dag_processing.py:1006} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                                                                                            PID  Runtime    Last Runtime    Last Run
+-------------------------------------------------------------------------------------------------------------------------------------------------  -----  ---------  --------------  -------------------
+/home/aqrl-caroline/aqrl-apps/airflow-teste/code/venv/lib/python3.6/site-packages/airflow/example_dags/test_utils.py                                                 1.01s           2020-06-17T15:26:20
+/home/aqrl-caroline/aqrl-apps/airflow-teste/code/venv/lib/python3.6/site-packages/airflow/example_dags/example_docker_operator.py                                    1.01s           2020-06-17T15:26:22
+/home/aqrl-caroline/aqrl-apps/airflow-teste/code/venv/lib/python3.6/site-packages/airflow/example_dags/example_latest_only.py                      17158  0.00s      1.01s           2020-06-17T15:26:15
+/home/aqrl-caroline/aqrl-apps/airflow-teste/code/venv/lib/python3.6/site-packages/airflow/example_dags/example_short_circuit_operator.py                             1.01s           2020-06-17T15:26:17
+/home/aqrl-caroline/aqrl-apps/airflow-teste/code/venv/lib/python3.6/site-packages/airflow/example_dags/example_python_operator.py                                    1.01s           2020-06-17T15:26:23
+/home/aqrl-caroline/aqrl-apps/airflow-teste/code/venv/lib/python3.6/site-packages/airflow/example_dags/example_branch_operator.py                                    1.01s           2020-06-17T15:26:20
+/home/aqrl-caroline/aqrl-apps/airflow-teste/code/venv/lib/python3.6/site-packages/airflow/example_dags/example_bash_operator.py                                      1.01s           2020-06-17T15:26:16
+/home/aqrl-caroline/aqrl-apps/airflow-teste/code/venv/lib/python3.6/site-packages/airflow/example_dags/example_trigger_target_dag.py                                 1.01s           2020-06-17T15:26:18
+/home/aqrl-caroline/aqrl-apps/airflow-teste/code/venv/lib/python3.6/site-packages/airflow/example_dags/example_skip_dag.py                                           1.01s           2020-06-17T15:26:19
+/home/aqrl-caroline/aqrl-apps/airflow-teste/code/venv/lib/python3.6/site-packages/airflow/example_dags/example_latest_only_with_trigger.py                           1.01s           2020-06-17T15:26:22
+/home/aqrl-caroline/aqrl-apps/airflow-teste/code/venv/lib/python3.6/site-packages/airflow/example_dags/example_http_operator.py                                      1.01s           2020-06-17T15:26:21
+/home/aqrl-caroline/aqrl-apps/airflow-teste/code/venv/lib/python3.6/site-packages/airflow/example_dags/example_xcom.py                                               1.01s           2020-06-17T15:26:23
+/home/aqrl-caroline/aqrl-apps/airflow-teste/code/venv/lib/python3.6/site-packages/airflow/example_dags/example_trigger_controller_dag.py                             1.01s           2020-06-17T15:26:16
+/home/aqrl-caroline/aqrl-apps/airflow-teste/code/venv/lib/python3.6/site-packages/airflow/example_dags/example_passing_params_via_test_command.py                    1.01s           2020-06-17T15:26:18
+/home/aqrl-caroline/aqrl-apps/airflow-teste/code/venv/lib/python3.6/site-packages/airflow/example_dags/example_branch_python_dop_operator_3.py                       1.01s           2020-06-17T15:26:12
+/home/aqrl-caroline/aqrl-apps/airflow-teste/code/venv/lib/python3.6/site-packages/airflow/example_dags/example_subdag_operator.py                  17156  0.01s      1.01s           2020-06-17T15:26:15
+/home/aqrl-caroline/aqrl-apps/airflow-teste/code/venv/lib/python3.6/site-packages/airflow/example_dags/tutorial.py                                                   1.02s           2020-06-17T15:26:19
+/home/aqrl-caroline/aqrl-apps/airflow-teste/code/venv/lib/python3.6/site-packages/airflow/example_dags/subdags/subdag.py                                             1.02s           2020-06-17T15:26:17
+/home/aqrl-caroline/aqrl-apps/airflow-teste/code/venv/lib/python3.6/site-packages/airflow/example_dags/docker_copy_data.py                                           1.02s           2020-06-17T15:26:21
+/home/aqrl-caroline/aqrl-apps/airflow-teste/code/venv/lib/python3.6/site-packages/airflow/example_dags/example_pig_operator.py                                       1.02s           2020-06-17T15:26:12
+================================================================================
+[2020-06-17 12:26:53,862] {dag_processing.py:1006} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                                                                                            PID  Runtime    Last Runtime    Last Run
+-------------------------------------------------------------------------------------------------------------------------------------------------  -----  ---------  --------------  -------------------
+/home/aqrl-caroline/aqrl-apps/airflow-teste/code/venv/lib/python3.6/site-packages/airflow/example_dags/test_utils.py                                                 1.00s           2020-06-17T15:26:47
+/home/aqrl-caroline/aqrl-apps/airflow-teste/code/venv/lib/python3.6/site-packages/airflow/example_dags/example_branch_python_dop_operator_3.py                       1.00s           2020-06-17T15:26:48
+/home/aqrl-caroline/aqrl-apps/airflow-teste/code/venv/lib/python3.6/site-packages/airflow/example_dags/example_docker_operator.py                                    1.01s           2020-06-17T15:26:49
+/home/aqrl-caroline/aqrl-apps/airflow-teste/code/venv/lib/python3.6/site-packages/airflow/example_dags/example_http_operator.py                                      1.01s           2020-06-17T15:26:39
+/home/aqrl-caroline/aqrl-apps/airflow-teste/code/venv/lib/python3.6/site-packages/airflow/example_dags/example_pig_operator.py                                       1.01s           2020-06-17T15:26:48
+/home/aqrl-caroline/aqrl-apps/airflow-teste/code/venv/lib/python3.6/site-packages/airflow/example_dags/example_bash_operator.py                                      1.01s           2020-06-17T15:26:52
+/home/aqrl-caroline/aqrl-apps/airflow-teste/code/venv/lib/python3.6/site-packages/airflow/example_dags/example_short_circuit_operator.py                             1.01s           2020-06-17T15:26:53
+/home/aqrl-caroline/aqrl-apps/airflow-teste/code/venv/lib/python3.6/site-packages/airflow/example_dags/example_branch_operator.py                                    1.01s           2020-06-17T15:26:47
+/home/aqrl-caroline/aqrl-apps/airflow-teste/code/venv/lib/python3.6/site-packages/airflow/example_dags/example_latest_only.py                                        1.01s           2020-06-17T15:26:51
+/home/aqrl-caroline/aqrl-apps/airflow-teste/code/venv/lib/python3.6/site-packages/airflow/example_dags/example_trigger_target_dag.py               17532  0.00s      1.01s           2020-06-17T15:26:45
+/home/aqrl-caroline/aqrl-apps/airflow-teste/code/venv/lib/python3.6/site-packages/airflow/example_dags/example_latest_only_with_trigger.py                           1.01s           2020-06-17T15:26:49
+/home/aqrl-caroline/aqrl-apps/airflow-teste/code/venv/lib/python3.6/site-packages/airflow/example_dags/example_skip_dag.py                                           1.01s           2020-06-17T15:26:46
+/home/aqrl-caroline/aqrl-apps/airflow-teste/code/venv/lib/python3.6/site-packages/airflow/example_dags/example_python_operator.py                                    1.01s           2020-06-17T15:26:50
+/home/aqrl-caroline/aqrl-apps/airflow-teste/code/venv/lib/python3.6/site-packages/airflow/example_dags/subdags/subdag.py                                             1.01s           2020-06-17T15:26:53
+/home/aqrl-caroline/aqrl-apps/airflow-teste/code/venv/lib/python3.6/site-packages/airflow/example_dags/docker_copy_data.py                                           1.01s           2020-06-17T15:26:39
+/home/aqrl-caroline/aqrl-apps/airflow-teste/code/venv/lib/python3.6/site-packages/airflow/example_dags/example_trigger_controller_dag.py                             1.01s           2020-06-17T15:26:52
+/home/aqrl-caroline/aqrl-apps/airflow-teste/code/venv/lib/python3.6/site-packages/airflow/example_dags/example_subdag_operator.py                                    1.01s           2020-06-17T15:26:51
+/home/aqrl-caroline/aqrl-apps/airflow-teste/code/venv/lib/python3.6/site-packages/airflow/example_dags/example_passing_params_via_test_command.py  17530  0.01s      1.01s           2020-06-17T15:26:45
+/home/aqrl-caroline/aqrl-apps/airflow-teste/code/venv/lib/python3.6/site-packages/airflow/example_dags/example_xcom.py                                               1.01s           2020-06-17T15:26:50
+/home/aqrl-caroline/aqrl-apps/airflow-teste/code/venv/lib/python3.6/site-packages/airflow/example_dags/tutorial.py                                                   1.01s           2020-06-17T15:26:46
+================================================================================
+[2020-06-17 12:27:18,608] {dag_processing.py:792} INFO - Exiting gracefully upon receiving signal 15
+[2020-06-17 12:27:18,788] {dag_processing.py:1275} INFO - Waiting up to 5 seconds for processes to exit...
+[2020-06-17 13:43:17,427] {dag_processing.py:806} INFO - Processing files using up to 2 processes at a time 
+[2020-06-17 13:43:17,439] {dag_processing.py:807} INFO - Process each file at most once every 0 seconds
+[2020-06-17 13:43:17,439] {dag_processing.py:809} INFO - Checking for new files in /home/aqrl-caroline/aqrl-apps/airflow-teste/code/dags every 300 seconds
+[2020-06-17 13:43:17,451] {dag_processing.py:1006} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                                                                                            PID  Runtime    Last Runtime    Last Run
+-------------------------------------------------------------------------------------------------------------------------------------------------  -----  ---------  --------------  ----------
+/home/aqrl-caroline/aqrl-apps/airflow-teste/code/venv/lib/python3.6/site-packages/airflow/example_dags/example_pig_operator.py
+/home/aqrl-caroline/aqrl-apps/airflow-teste/code/venv/lib/python3.6/site-packages/airflow/example_dags/example_passing_params_via_test_command.py
+/home/aqrl-caroline/aqrl-apps/airflow-teste/code/venv/lib/python3.6/site-packages/airflow/example_dags/example_python_operator.py
+/home/aqrl-caroline/aqrl-apps/airflow-teste/code/venv/lib/python3.6/site-packages/airflow/example_dags/example_docker_operator.py
+/home/aqrl-caroline/aqrl-apps/airflow-teste/code/venv/lib/python3.6/site-packages/airflow/example_dags/example_branch_python_dop_operator_3.py
+/home/aqrl-caroline/aqrl-apps/airflow-teste/code/venv/lib/python3.6/site-packages/airflow/example_dags/example_trigger_target_dag.py
+/home/aqrl-caroline/aqrl-apps/airflow-teste/code/venv/lib/python3.6/site-packages/airflow/example_dags/test_utils.py
+/home/aqrl-caroline/aqrl-apps/airflow-teste/code/venv/lib/python3.6/site-packages/airflow/example_dags/tutorial.py
+/home/aqrl-caroline/aqrl-apps/airflow-teste/code/venv/lib/python3.6/site-packages/airflow/example_dags/example_bash_operator.py                    20281  0.00s
+/home/aqrl-caroline/aqrl-apps/airflow-teste/code/venv/lib/python3.6/site-packages/airflow/example_dags/example_http_operator.py
+/home/aqrl-caroline/aqrl-apps/airflow-teste/code/venv/lib/python3.6/site-packages/airflow/example_dags/example_branch_operator.py                  20283  0.00s
+/home/aqrl-caroline/aqrl-apps/airflow-teste/code/venv/lib/python3.6/site-packages/airflow/example_dags/docker_copy_data.py
+/home/aqrl-caroline/aqrl-apps/airflow-teste/code/venv/lib/python3.6/site-packages/airflow/example_dags/example_subdag_operator.py
+/home/aqrl-caroline/aqrl-apps/airflow-teste/code/venv/lib/python3.6/site-packages/airflow/example_dags/example_xcom.py
+/home/aqrl-caroline/aqrl-apps/airflow-teste/code/venv/lib/python3.6/site-packages/airflow/example_dags/example_latest_only.py
+/home/aqrl-caroline/aqrl-apps/airflow-teste/code/venv/lib/python3.6/site-packages/airflow/example_dags/example_skip_dag.py
+/home/aqrl-caroline/aqrl-apps/airflow-teste/code/venv/lib/python3.6/site-packages/airflow/example_dags/example_short_circuit_operator.py
+/home/aqrl-caroline/aqrl-apps/airflow-teste/code/venv/lib/python3.6/site-packages/airflow/example_dags/example_trigger_controller_dag.py
+/home/aqrl-caroline/aqrl-apps/airflow-teste/code/venv/lib/python3.6/site-packages/airflow/example_dags/example_latest_only_with_trigger.py
+/home/aqrl-caroline/aqrl-apps/airflow-teste/code/venv/lib/python3.6/site-packages/airflow/example_dags/subdags/subdag.py
+================================================================================
+[2020-06-17 13:43:47,745] {dag_processing.py:1006} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                                                                                            PID  Runtime    Last Runtime    Last Run
+-------------------------------------------------------------------------------------------------------------------------------------------------  -----  ---------  --------------  -------------------
+/home/aqrl-caroline/aqrl-apps/airflow-teste/code/venv/lib/python3.6/site-packages/airflow/example_dags/tutorial.py                                                   1.00s           2020-06-17T16:43:42
+/home/aqrl-caroline/aqrl-apps/airflow-teste/code/venv/lib/python3.6/site-packages/airflow/example_dags/example_trigger_target_dag.py                                 1.00s           2020-06-17T16:43:47
+/home/aqrl-caroline/aqrl-apps/airflow-teste/code/venv/lib/python3.6/site-packages/airflow/example_dags/example_passing_params_via_test_command.py                    1.00s           2020-06-17T16:43:40
+/home/aqrl-caroline/aqrl-apps/airflow-teste/code/venv/lib/python3.6/site-packages/airflow/example_dags/example_skip_dag.py                                           1.00s           2020-06-17T16:43:43
+/home/aqrl-caroline/aqrl-apps/airflow-teste/code/venv/lib/python3.6/site-packages/airflow/example_dags/example_branch_operator.py                                    1.00s           2020-06-17T16:43:46
+/home/aqrl-caroline/aqrl-apps/airflow-teste/code/venv/lib/python3.6/site-packages/airflow/example_dags/example_branch_python_dop_operator_3.py                       1.00s           2020-06-17T16:43:41
+/home/aqrl-caroline/aqrl-apps/airflow-teste/code/venv/lib/python3.6/site-packages/airflow/example_dags/example_xcom.py                                               1.01s           2020-06-17T16:43:36
+/home/aqrl-caroline/aqrl-apps/airflow-teste/code/venv/lib/python3.6/site-packages/airflow/example_dags/example_docker_operator.py                                    1.01s           2020-06-17T16:43:45
+/home/aqrl-caroline/aqrl-apps/airflow-teste/code/venv/lib/python3.6/site-packages/airflow/example_dags/example_http_operator.py                    20653  0.00s      1.01s           2020-06-17T16:43:39
+/home/aqrl-caroline/aqrl-apps/airflow-teste/code/venv/lib/python3.6/site-packages/airflow/example_dags/example_subdag_operator.py                                    1.01s           2020-06-17T16:43:42
+/home/aqrl-caroline/aqrl-apps/airflow-teste/code/venv/lib/python3.6/site-packages/airflow/example_dags/subdags/subdag.py                                             1.01s           2020-06-17T16:43:44
+/home/aqrl-caroline/aqrl-apps/airflow-teste/code/venv/lib/python3.6/site-packages/airflow/example_dags/example_latest_only_with_trigger.py                           1.01s           2020-06-17T16:43:43
+/home/aqrl-caroline/aqrl-apps/airflow-teste/code/venv/lib/python3.6/site-packages/airflow/example_dags/example_trigger_controller_dag.py                             1.01s           2020-06-17T16:43:47
+/home/aqrl-caroline/aqrl-apps/airflow-teste/code/venv/lib/python3.6/site-packages/airflow/example_dags/docker_copy_data.py                                           1.01s           2020-06-17T16:43:40
+/home/aqrl-caroline/aqrl-apps/airflow-teste/code/venv/lib/python3.6/site-packages/airflow/example_dags/example_bash_operator.py                                      1.01s           2020-06-17T16:43:46
+/home/aqrl-caroline/aqrl-apps/airflow-teste/code/venv/lib/python3.6/site-packages/airflow/example_dags/example_pig_operator.py                                       1.01s           2020-06-17T16:43:41
+/home/aqrl-caroline/aqrl-apps/airflow-teste/code/venv/lib/python3.6/site-packages/airflow/example_dags/test_utils.py                                                 1.01s           2020-06-17T16:43:45
+/home/aqrl-caroline/aqrl-apps/airflow-teste/code/venv/lib/python3.6/site-packages/airflow/example_dags/example_latest_only.py                                        1.01s           2020-06-17T16:43:36
+/home/aqrl-caroline/aqrl-apps/airflow-teste/code/venv/lib/python3.6/site-packages/airflow/example_dags/example_short_circuit_operator.py                             1.01s           2020-06-17T16:43:44
+/home/aqrl-caroline/aqrl-apps/airflow-teste/code/venv/lib/python3.6/site-packages/airflow/example_dags/example_python_operator.py                  20651  0.01s      1.01s           2020-06-17T16:43:39
+================================================================================
+[2020-06-17 13:44:18,003] {dag_processing.py:1006} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                                                                                            PID  Runtime    Last Runtime    Last Run
+-------------------------------------------------------------------------------------------------------------------------------------------------  -----  ---------  --------------  -------------------
+/home/aqrl-caroline/aqrl-apps/airflow-teste/code/venv/lib/python3.6/site-packages/airflow/example_dags/example_docker_operator.py                                    1.00s           2020-06-17T16:44:03
+/home/aqrl-caroline/aqrl-apps/airflow-teste/code/venv/lib/python3.6/site-packages/airflow/example_dags/subdags/subdag.py                                             1.00s           2020-06-17T16:44:11
+/home/aqrl-caroline/aqrl-apps/airflow-teste/code/venv/lib/python3.6/site-packages/airflow/example_dags/example_skip_dag.py                                           1.00s           2020-06-17T16:44:10
+/home/aqrl-caroline/aqrl-apps/airflow-teste/code/venv/lib/python3.6/site-packages/airflow/example_dags/example_branch_python_dop_operator_3.py                       1.00s           2020-06-17T16:44:17
+/home/aqrl-caroline/aqrl-apps/airflow-teste/code/venv/lib/python3.6/site-packages/airflow/example_dags/tutorial.py                                 21021  0.00s      1.00s           2020-06-17T16:44:09
+/home/aqrl-caroline/aqrl-apps/airflow-teste/code/venv/lib/python3.6/site-packages/airflow/example_dags/example_passing_params_via_test_command.py                    1.00s           2020-06-17T16:44:16
+/home/aqrl-caroline/aqrl-apps/airflow-teste/code/venv/lib/python3.6/site-packages/airflow/example_dags/example_trigger_target_dag.py                                 1.00s           2020-06-17T16:44:14
+/home/aqrl-caroline/aqrl-apps/airflow-teste/code/venv/lib/python3.6/site-packages/airflow/example_dags/example_branch_operator.py                                    1.00s           2020-06-17T16:44:13
+/home/aqrl-caroline/aqrl-apps/airflow-teste/code/venv/lib/python3.6/site-packages/airflow/example_dags/example_xcom.py                                               1.00s           2020-06-17T16:44:12
+/home/aqrl-caroline/aqrl-apps/airflow-teste/code/venv/lib/python3.6/site-packages/airflow/example_dags/example_http_operator.py                                      1.01s           2020-06-17T16:44:15
+/home/aqrl-caroline/aqrl-apps/airflow-teste/code/venv/lib/python3.6/site-packages/airflow/example_dags/test_utils.py                                                 1.01s           2020-06-17T16:44:03
+/home/aqrl-caroline/aqrl-apps/airflow-teste/code/venv/lib/python3.6/site-packages/airflow/example_dags/example_short_circuit_operator.py                             1.01s           2020-06-17T16:44:11
+/home/aqrl-caroline/aqrl-apps/airflow-teste/code/venv/lib/python3.6/site-packages/airflow/example_dags/example_subdag_operator.py                  21019  0.01s      1.01s           2020-06-17T16:44:09
+/home/aqrl-caroline/aqrl-apps/airflow-teste/code/venv/lib/python3.6/site-packages/airflow/example_dags/example_latest_only_with_trigger.py                           1.01s           2020-06-17T16:44:10
+/home/aqrl-caroline/aqrl-apps/airflow-teste/code/venv/lib/python3.6/site-packages/airflow/example_dags/example_pig_operator.py                                       1.01s           2020-06-17T16:44:17
+/home/aqrl-caroline/aqrl-apps/airflow-teste/code/venv/lib/python3.6/site-packages/airflow/example_dags/docker_copy_data.py                                           1.01s           2020-06-17T16:44:16
+/home/aqrl-caroline/aqrl-apps/airflow-teste/code/venv/lib/python3.6/site-packages/airflow/example_dags/example_bash_operator.py                                      1.01s           2020-06-17T16:44:13
+/home/aqrl-caroline/aqrl-apps/airflow-teste/code/venv/lib/python3.6/site-packages/airflow/example_dags/example_latest_only.py                                        1.01s           2020-06-17T16:44:12
+/home/aqrl-caroline/aqrl-apps/airflow-teste/code/venv/lib/python3.6/site-packages/airflow/example_dags/example_trigger_controller_dag.py                             1.01s           2020-06-17T16:44:14
+/home/aqrl-caroline/aqrl-apps/airflow-teste/code/venv/lib/python3.6/site-packages/airflow/example_dags/example_python_operator.py                                    1.01s           2020-06-17T16:44:15
+================================================================================
+[2020-06-17 13:44:42,189] {dag_processing.py:792} INFO - Exiting gracefully upon receiving signal 15
+[2020-06-17 13:44:42,199] {dag_processing.py:1275} INFO - Waiting up to 5 seconds for processes to exit...
+[2020-06-17 14:25:34,334] {dag_processing.py:806} INFO - Processing files using up to 2 processes at a time 
+[2020-06-17 14:25:34,350] {dag_processing.py:807} INFO - Process each file at most once every 0 seconds
+[2020-06-17 14:25:34,350] {dag_processing.py:809} INFO - Checking for new files in /home/aqrl-caroline/aqrl-apps/airflow-teste/code/dags every 300 seconds
+[2020-06-17 14:25:34,359] {dag_processing.py:1006} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                                                                                            PID  Runtime    Last Runtime    Last Run
+-------------------------------------------------------------------------------------------------------------------------------------------------  -----  ---------  --------------  ----------
+/home/aqrl-caroline/aqrl-apps/airflow-teste/code/dags/my_first_dag.py
+/home/aqrl-caroline/aqrl-apps/airflow-teste/code/venv/lib/python3.6/site-packages/airflow/example_dags/example_pig_operator.py
+/home/aqrl-caroline/aqrl-apps/airflow-teste/code/venv/lib/python3.6/site-packages/airflow/example_dags/example_passing_params_via_test_command.py
+/home/aqrl-caroline/aqrl-apps/airflow-teste/code/venv/lib/python3.6/site-packages/airflow/example_dags/example_python_operator.py
+/home/aqrl-caroline/aqrl-apps/airflow-teste/code/venv/lib/python3.6/site-packages/airflow/example_dags/example_docker_operator.py                  25704  0.00s
+/home/aqrl-caroline/aqrl-apps/airflow-teste/code/venv/lib/python3.6/site-packages/airflow/example_dags/example_branch_python_dop_operator_3.py     25701  0.01s
+/home/aqrl-caroline/aqrl-apps/airflow-teste/code/venv/lib/python3.6/site-packages/airflow/example_dags/example_trigger_target_dag.py
+/home/aqrl-caroline/aqrl-apps/airflow-teste/code/venv/lib/python3.6/site-packages/airflow/example_dags/test_utils.py
+/home/aqrl-caroline/aqrl-apps/airflow-teste/code/venv/lib/python3.6/site-packages/airflow/example_dags/tutorial.py
+/home/aqrl-caroline/aqrl-apps/airflow-teste/code/venv/lib/python3.6/site-packages/airflow/example_dags/example_bash_operator.py
+/home/aqrl-caroline/aqrl-apps/airflow-teste/code/venv/lib/python3.6/site-packages/airflow/example_dags/example_http_operator.py
+/home/aqrl-caroline/aqrl-apps/airflow-teste/code/venv/lib/python3.6/site-packages/airflow/example_dags/example_branch_operator.py
+/home/aqrl-caroline/aqrl-apps/airflow-teste/code/venv/lib/python3.6/site-packages/airflow/example_dags/docker_copy_data.py
+/home/aqrl-caroline/aqrl-apps/airflow-teste/code/venv/lib/python3.6/site-packages/airflow/example_dags/example_subdag_operator.py
+/home/aqrl-caroline/aqrl-apps/airflow-teste/code/venv/lib/python3.6/site-packages/airflow/example_dags/example_xcom.py
+/home/aqrl-caroline/aqrl-apps/airflow-teste/code/venv/lib/python3.6/site-packages/airflow/example_dags/example_latest_only.py
+/home/aqrl-caroline/aqrl-apps/airflow-teste/code/venv/lib/python3.6/site-packages/airflow/example_dags/example_skip_dag.py
+/home/aqrl-caroline/aqrl-apps/airflow-teste/code/venv/lib/python3.6/site-packages/airflow/example_dags/example_short_circuit_operator.py
+/home/aqrl-caroline/aqrl-apps/airflow-teste/code/venv/lib/python3.6/site-packages/airflow/example_dags/example_trigger_controller_dag.py
+/home/aqrl-caroline/aqrl-apps/airflow-teste/code/venv/lib/python3.6/site-packages/airflow/example_dags/example_latest_only_with_trigger.py
+/home/aqrl-caroline/aqrl-apps/airflow-teste/code/venv/lib/python3.6/site-packages/airflow/example_dags/subdags/subdag.py
+================================================================================
+[2020-06-17 14:25:51,314] {dag_processing.py:792} INFO - Exiting gracefully upon receiving signal 15
+[2020-06-17 14:25:51,333] {dag_processing.py:1275} INFO - Waiting up to 5 seconds for processes to exit...
+[2020-06-17 14:28:03,672] {dag_processing.py:806} INFO - Processing files using up to 2 processes at a time 
+[2020-06-17 14:28:03,673] {dag_processing.py:807} INFO - Process each file at most once every 0 seconds
+[2020-06-17 14:28:03,673] {dag_processing.py:809} INFO - Checking for new files in /home/aqrl-caroline/aqrl-apps/airflow-teste/code/dags every 300 seconds
+[2020-06-17 14:28:03,682] {dag_processing.py:1006} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                                                                                                                            PID  Runtime    Last Runtime    Last Run
+-------------------------------------------------------------------------------------------------------------------------------------------------  -----  ---------  --------------  ----------
+/home/aqrl-caroline/aqrl-apps/airflow-teste/code/dags/my_first_dag.py                                                                              26412  0.00s
+/home/aqrl-caroline/aqrl-apps/airflow-teste/code/venv/lib/python3.6/site-packages/airflow/example_dags/example_pig_operator.py
+/home/aqrl-caroline/aqrl-apps/airflow-teste/code/venv/lib/python3.6/site-packages/airflow/example_dags/example_passing_params_via_test_command.py  26414  0.00s
+/home/aqrl-caroline/aqrl-apps/airflow-teste/code/venv/lib/python3.6/site-packages/airflow/example_dags/example_python_operator.py
+/home/aqrl-caroline/aqrl-apps/airflow-teste/code/venv/lib/python3.6/site-packages/airflow/example_dags/example_docker_operator.py
+/home/aqrl-caroline/aqrl-apps/airflow-teste/code/venv/lib/python3.6/site-packages/airflow/example_dags/example_branch_python_dop_operator_3.py
+/home/aqrl-caroline/aqrl-apps/airflow-teste/code/venv/lib/python3.6/site-packages/airflow/example_dags/example_trigger_target_dag.py
+/home/aqrl-caroline/aqrl-apps/airflow-teste/code/venv/lib/python3.6/site-packages/airflow/example_dags/test_utils.py
+/home/aqrl-caroline/aqrl-apps/airflow-teste/code/venv/lib/python3.6/site-packages/airflow/example_dags/tutorial.py
+/home/aqrl-caroline/aqrl-apps/airflow-teste/code/venv/lib/python3.6/site-packages/airflow/example_dags/example_bash_operator.py
+/home/aqrl-caroline/aqrl-apps/airflow-teste/code/venv/lib/python3.6/site-packages/airflow/example_dags/example_http_operator.py
+/home/aqrl-caroline/aqrl-apps/airflow-teste/code/venv/lib/python3.6/site-packages/airflow/example_dags/example_branch_operator.py
+/home/aqrl-caroline/aqrl-apps/airflow-teste/code/venv/lib/python3.6/site-packages/airflow/example_dags/docker_copy_data.py
+/home/aqrl-caroline/aqrl-apps/airflow-teste/code/venv/lib/python3.6/site-packages/airflow/example_dags/example_subdag_operator.py
+/home/aqrl-caroline/aqrl-apps/airflow-teste/code/venv/lib/python3.6/site-packages/airflow/example_dags/example_xcom.py
+/home/aqrl-caroline/aqrl-apps/airflow-teste/code/venv/lib/python3.6/site-packages/airflow/example_dags/example_latest_only.py
+/home/aqrl-caroline/aqrl-apps/airflow-teste/code/venv/lib/python3.6/site-packages/airflow/example_dags/example_skip_dag.py
+/home/aqrl-caroline/aqrl-apps/airflow-teste/code/venv/lib/python3.6/site-packages/airflow/example_dags/example_short_circuit_operator.py
+/home/aqrl-caroline/aqrl-apps/airflow-teste/code/venv/lib/python3.6/site-packages/airflow/example_dags/example_trigger_controller_dag.py
+/home/aqrl-caroline/aqrl-apps/airflow-teste/code/venv/lib/python3.6/site-packages/airflow/example_dags/example_latest_only_with_trigger.py
+/home/aqrl-caroline/aqrl-apps/airflow-teste/code/venv/lib/python3.6/site-packages/airflow/example_dags/subdags/subdag.py
+================================================================================
+[2020-06-17 14:28:04,182] {dag_processing.py:792} INFO - Exiting gracefully upon receiving signal 15
+[2020-06-17 14:28:04,194] {dag_processing.py:1275} INFO - Waiting up to 5 seconds for processes to exit...

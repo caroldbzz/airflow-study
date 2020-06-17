@@ -1,0 +1,50 @@
+[2020-06-17 14:25:36,371] {logging_mixin.py:95} INFO - [2020-06-17 14:25:36,371] {settings.py:213} INFO - settings.configure_orm(): Using pool settings. pool_size=5, max_overflow=10, pool_recycle=1800, pid=25728
+[2020-06-17 14:25:36,373] {scheduler_job.py:146} INFO - Started process (PID=25728) to work on /home/aqrl-caroline/aqrl-apps/airflow-teste/code/dags/my_first_dag.py
+[2020-06-17 14:25:36,374] {scheduler_job.py:1520} INFO - Processing file /home/aqrl-caroline/aqrl-apps/airflow-teste/code/dags/my_first_dag.py for tasks to queue
+[2020-06-17 14:25:36,374] {logging_mixin.py:95} INFO - [2020-06-17 14:25:36,374] {dagbag.py:90} INFO - Filling up the DagBag from /home/aqrl-caroline/aqrl-apps/airflow-teste/code/dags/my_first_dag.py
+[2020-06-17 14:25:36,376] {logging_mixin.py:95} INFO - [2020-06-17 14:25:36,376] {dagbag.py:261} ERROR - Failed to bag_dag: /home/aqrl-caroline/aqrl-apps/airflow-teste/code/dags/my_first_dag.py
+Traceback (most recent call last):
+  File "/home/aqrl-caroline/aqrl-apps/airflow-teste/code/venv/lib/python3.6/site-packages/airflow/models/dagbag.py", line 255, in process_file
+    croniter(dag._schedule_interval)
+  File "/home/aqrl-caroline/aqrl-apps/airflow-teste/code/venv/lib/python3.6/site-packages/croniter/croniter.py", line 90, in __init__
+    self.expanded, self.nth_weekday_of_month = self.expand(expr_format)
+  File "/home/aqrl-caroline/aqrl-apps/airflow-teste/code/venv/lib/python3.6/site-packages/croniter/croniter.py", line 481, in expand
+    raise CroniterBadCronError(cls.bad_length)
+croniter.croniter.CroniterBadCronError: Exactly 5 or 6 columns has to be specified for iteratorexpression.
+[2020-06-17 14:25:36,376] {scheduler_job.py:1532} INFO - DAG(s) dict_keys(['my_first_dag']) retrieved from /home/aqrl-caroline/aqrl-apps/airflow-teste/code/dags/my_first_dag.py
+[2020-06-17 14:25:36,387] {logging_mixin.py:95} INFO - [2020-06-17 14:25:36,387] {dag.py:1323} INFO - Creating ORM DAG for my_first_dag
+[2020-06-17 14:25:36,583] {scheduler_job.py:152} INFO - Processing /home/aqrl-caroline/aqrl-apps/airflow-teste/code/dags/my_first_dag.py took 0.211 seconds
+[2020-06-17 14:25:47,497] {logging_mixin.py:95} INFO - [2020-06-17 14:25:47,496] {settings.py:213} INFO - settings.configure_orm(): Using pool settings. pool_size=5, max_overflow=10, pool_recycle=1800, pid=25863
+[2020-06-17 14:25:47,501] {scheduler_job.py:146} INFO - Started process (PID=25863) to work on /home/aqrl-caroline/aqrl-apps/airflow-teste/code/dags/my_first_dag.py
+[2020-06-17 14:25:47,505] {scheduler_job.py:1520} INFO - Processing file /home/aqrl-caroline/aqrl-apps/airflow-teste/code/dags/my_first_dag.py for tasks to queue
+[2020-06-17 14:25:47,505] {logging_mixin.py:95} INFO - [2020-06-17 14:25:47,505] {dagbag.py:90} INFO - Filling up the DagBag from /home/aqrl-caroline/aqrl-apps/airflow-teste/code/dags/my_first_dag.py
+[2020-06-17 14:25:47,512] {logging_mixin.py:95} INFO - [2020-06-17 14:25:47,511] {dagbag.py:261} ERROR - Failed to bag_dag: /home/aqrl-caroline/aqrl-apps/airflow-teste/code/dags/my_first_dag.py
+Traceback (most recent call last):
+  File "/home/aqrl-caroline/aqrl-apps/airflow-teste/code/venv/lib/python3.6/site-packages/airflow/models/dagbag.py", line 255, in process_file
+    croniter(dag._schedule_interval)
+  File "/home/aqrl-caroline/aqrl-apps/airflow-teste/code/venv/lib/python3.6/site-packages/croniter/croniter.py", line 90, in __init__
+    self.expanded, self.nth_weekday_of_month = self.expand(expr_format)
+  File "/home/aqrl-caroline/aqrl-apps/airflow-teste/code/venv/lib/python3.6/site-packages/croniter/croniter.py", line 481, in expand
+    raise CroniterBadCronError(cls.bad_length)
+croniter.croniter.CroniterBadCronError: Exactly 5 or 6 columns has to be specified for iteratorexpression.
+[2020-06-17 14:25:47,512] {scheduler_job.py:1532} INFO - DAG(s) dict_keys(['my_first_dag']) retrieved from /home/aqrl-caroline/aqrl-apps/airflow-teste/code/dags/my_first_dag.py
+[2020-06-17 14:25:47,632] {scheduler_job.py:152} INFO - Processing /home/aqrl-caroline/aqrl-apps/airflow-teste/code/dags/my_first_dag.py took 0.131 seconds
+[2020-06-17 14:28:03,679] {logging_mixin.py:95} INFO - [2020-06-17 14:28:03,679] {settings.py:213} INFO - settings.configure_orm(): Using pool settings. pool_size=5, max_overflow=10, pool_recycle=1800, pid=26412
+[2020-06-17 14:28:03,681] {scheduler_job.py:146} INFO - Started process (PID=26412) to work on /home/aqrl-caroline/aqrl-apps/airflow-teste/code/dags/my_first_dag.py
+[2020-06-17 14:28:03,683] {scheduler_job.py:1520} INFO - Processing file /home/aqrl-caroline/aqrl-apps/airflow-teste/code/dags/my_first_dag.py for tasks to queue
+[2020-06-17 14:28:03,683] {logging_mixin.py:95} INFO - [2020-06-17 14:28:03,683] {dagbag.py:90} INFO - Filling up the DagBag from /home/aqrl-caroline/aqrl-apps/airflow-teste/code/dags/my_first_dag.py
+[2020-06-17 14:28:03,697] {logging_mixin.py:95} INFO - [2020-06-17 14:28:03,686] {dagbag.py:205} ERROR - Failed to import: /home/aqrl-caroline/aqrl-apps/airflow-teste/code/dags/my_first_dag.py
+Traceback (most recent call last):
+  File "/home/aqrl-caroline/aqrl-apps/airflow-teste/code/venv/lib/python3.6/site-packages/airflow/models/dagbag.py", line 202, in process_file
+    m = imp.load_source(mod_name, filepath)
+  File "/usr/lib/python3.6/imp.py", line 172, in load_source
+    module = _load(spec)
+  File "<frozen importlib._bootstrap>", line 684, in _load
+  File "<frozen importlib._bootstrap>", line 665, in _load_unlocked
+  File "<frozen importlib._bootstrap_external>", line 678, in exec_module
+  File "<frozen importlib._bootstrap>", line 219, in _call_with_frames_removed
+  File "/home/aqrl-caroline/aqrl-apps/airflow-teste/code/dags/my_first_dag.py", line 14, in <module>
+    catchup=False)
+TypeError: __init__() got an unexpected keyword argument 'sschedule_interval'
+[2020-06-17 14:28:03,697] {scheduler_job.py:1534} WARNING - No viable dags retrieved from /home/aqrl-caroline/aqrl-apps/airflow-teste/code/dags/my_first_dag.py
+[2020-06-17 14:28:03,775] {scheduler_job.py:152} INFO - Processing /home/aqrl-caroline/aqrl-apps/airflow-teste/code/dags/my_first_dag.py took 0.094 seconds
