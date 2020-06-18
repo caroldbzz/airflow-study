@@ -1,7 +1,20 @@
 from airflow.plugins_manager import AirflowPlugin
 from airflow.models import BaseOperator
 from airflow.utils.decorators import apply_defaults
+from airflow.operators.sensors import BaseSensorOperator
 import logging as log
+from datetime import datetime
+
+class MyFirstSensor(BaseSensorOperator):
+
+    def __init__(self, *args, **kwargs):
+        super().__init__(*args, **kwargs)
+
+    def poke(self, context): #Função chamada em um período de tempo definido, que é passado ao construtor
+        current_minute = datetime.now().minute
+        if current_minute % 2 != 0:
+            return False
+        return True
 
 class MyFirstOperator(BaseOperator):
 
@@ -16,6 +29,6 @@ class MyFirstOperator(BaseOperator):
 class MyFirstPlugin(AirflowPlugin):
 
     name = 'my first plugin'
-    operators = [MyFirstOperator]
+    operators = [MyFirstOperator, MyFirstSensor]
     hooks = []
 

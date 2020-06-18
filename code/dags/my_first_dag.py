@@ -1,6 +1,6 @@
 from airflow import DAG
 from datetime import datetime, timedelta
-from airflow.operators import MyFirstOperator
+from airflow.operators import MyFirstOperator, MyFirstSensor
 
 default_arguments = {
     'owner':'airflow',
@@ -16,4 +16,6 @@ dag = DAG(dag_id='my_first_dag',
 
 task_1 = MyFirstOperator(task_id='task_id1', param='some random text', dag=dag)
 
-task_1
+task_2 = MyFirstSensor(task_id='task_id2', poke_interval=30, dag=dag)
+
+task_2 >> task_1 # task_2 será executando antes da task_1

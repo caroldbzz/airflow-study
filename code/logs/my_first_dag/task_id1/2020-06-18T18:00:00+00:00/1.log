@@ -1,0 +1,17 @@
+[2020-06-18 16:00:06,676] {taskinstance.py:620} INFO - Dependencies all met for <TaskInstance: my_first_dag.task_id1 2020-06-18T18:00:00+00:00 [queued]>
+[2020-06-18 16:00:06,736] {taskinstance.py:620} INFO - Dependencies all met for <TaskInstance: my_first_dag.task_id1 2020-06-18T18:00:00+00:00 [queued]>
+[2020-06-18 16:00:06,737] {taskinstance.py:838} INFO - 
+--------------------------------------------------------------------------------
+[2020-06-18 16:00:06,737] {taskinstance.py:839} INFO - Starting attempt 1 of 4
+[2020-06-18 16:00:06,737] {taskinstance.py:840} INFO - 
+--------------------------------------------------------------------------------
+[2020-06-18 16:00:06,859] {taskinstance.py:859} INFO - Executing <Task(MyFirstOperator): task_id1> on 2020-06-18T18:00:00+00:00
+[2020-06-18 16:00:06,860] {base_task_runner.py:133} INFO - Running: ['airflow', 'run', 'my_first_dag', 'task_id1', '2020-06-18T18:00:00+00:00', '--job_id', '5', '--pool', 'default_pool', '--raw', '-sd', 'DAGS_FOLDER/my_first_dag.py', '--cfg_path', '/tmp/tmpz3qbru54']
+[2020-06-18 16:00:07,311] {base_task_runner.py:115} INFO - Job 5: Subtask task_id1 /home/aqrl-caroline/aqrl-apps/airflow-teste/code/venv/lib/python3.6/site-packages/airflow/configuration.py:627: DeprecationWarning: You have two airflow.cfg files: /home/aqrl-caroline/airflow/airflow.cfg and /home/aqrl-caroline/aqrl-apps/airflow-teste/code/airflow.cfg. Airflow used to look at ~/airflow/airflow.cfg, even when AIRFLOW_HOME was set to a different value. Airflow will now only read /home/aqrl-caroline/aqrl-apps/airflow-teste/code/airflow.cfg, and you should remove the other file
+[2020-06-18 16:00:07,311] {base_task_runner.py:115} INFO - Job 5: Subtask task_id1   category=DeprecationWarning,
+[2020-06-18 16:00:07,352] {base_task_runner.py:115} INFO - Job 5: Subtask task_id1 [2020-06-18 16:00:07,352] {settings.py:213} INFO - settings.configure_orm(): Using pool settings. pool_size=5, max_overflow=10, pool_recycle=1800, pid=29202
+[2020-06-18 16:00:07,452] {base_task_runner.py:115} INFO - Job 5: Subtask task_id1 [2020-06-18 16:00:07,451] {__init__.py:51} INFO - Using executor LocalExecutor
+[2020-06-18 16:00:07,769] {base_task_runner.py:115} INFO - Job 5: Subtask task_id1 [2020-06-18 16:00:07,765] {dagbag.py:90} INFO - Filling up the DagBag from /home/aqrl-caroline/aqrl-apps/airflow-teste/code/dags/my_first_dag.py
+[2020-06-18 16:00:07,833] {base_task_runner.py:115} INFO - Job 5: Subtask task_id1 [2020-06-18 16:00:07,832] {cli.py:516} INFO - Running <TaskInstance: my_first_dag.task_id1 2020-06-18T18:00:00+00:00 [running]> on host aqrlcaroline-Inspiron-5584
+[2020-06-18 16:00:07,869] {logging_mixin.py:95} INFO - [[34m2020-06-18 16:00:07,868[0m] {[34mmy_plugin.py:[0m27} INFO[0m - some random text[0m
+[2020-06-18 16:00:11,695] {logging_mixin.py:95} INFO - [[34m2020-06-18 16:00:11,694[0m] {[34mlocal_task_job.py:[0m105} INFO[0m - Task exited with return code 0[0m
