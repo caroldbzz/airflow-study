@@ -1,2 +1,2 @@
-# estudos_airflow
-Primeiros passos utilizando a ferramenta Airflow
+# Estudos Airflow
+Primeiros passos utilizando a ferramenta Airflow.
